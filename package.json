@@ -1,16 +1,12 @@
 {
-  "name": "nextly-template",
+  "name": "guara-landing",
   "version": "0.1.0",
-  "description": "Nextly Landing Page Template",
+  "description": "Guara Studio Landing Page",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://gituhb.com/web3templates/nextly-template"
   },
   "keywords": [
     "nextjs",

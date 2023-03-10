@@ -90,7 +90,7 @@ export default function Navbar() {
               Contate-nos
           </Link>
 
-          <ThemeChanger />
+          {/* <ThemeChanger /> */}
         </div>
       </nav>
     </div>

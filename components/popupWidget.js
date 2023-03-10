@@ -251,13 +251,13 @@ export default function PopupWidget() {
                         id="result">
                         <span>
                           Powered by{" "}
-                          <a
+                          <Link
                             href="https://Web3Forms.com"
                             className="text-gray-600"
                             target="_blank"
                             rel="noopener noreferrer">
                             Web3Forms
-                          </a>
+                          </Link>
                         </span>
                       </p>
                     </form>

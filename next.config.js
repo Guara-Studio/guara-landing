@@ -1,9 +1,7 @@
 module.exports = {
   images: {
-    loader: 'imgix',
-    path: '',
+    unoptimized: true
   },
-  target: "serverless",
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback.fs = false;

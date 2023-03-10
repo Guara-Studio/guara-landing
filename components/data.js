@@ -11,46 +11,46 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Nossas qualidades e benefícios!",
+  desc: "Ao fechar um projeto conosco, você terá acesso a uma equipe de especialistas altamente qualificados que trabalharão para garantir que seu projeto seja concluído com excelência. Você terá a tranquilidade de saber que está trabalhando com profissionais comprometidos em oferecer o melhor serviço possível",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Presença online sólida",
+      desc: "Garantia que sua marca se destaque e seja percebida pelos clientes em potencial",
       icon: <EmojiHappyIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Produtos que performam",
+      desc: "Desenvolvemos sites e aplicativos que são rápidos, responsivos e fáceis de usar",
       icon: <ChartSquareBarIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Expertise em SEO",
+      desc: "Podemos colocar sua empresa na primeira página do Google",
       icon: <CursorClickIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "E não para por aí!",
+  desc: "Trabalhar com a Guará é escolher uma parceria estratégica, baseada em comprometimento, qualidade e excelência em cada etapa do projeto.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Experiências digitais únicas",
+      desc: "Experiências que conectam marcas e pessoas",
       icon: <DeviceMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Compromisso com a excelência",
+      desc: "Projetos personalizados e com qualidade excepcional",
       icon: <AdjustmentsIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Designs atuais e modernos",
+      desc: "Garantia resultados expressivos para o seu negócio",
       icon: <SunIcon />,
     },
   ],

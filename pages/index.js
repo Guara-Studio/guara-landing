@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Guará Studio</title>
         <meta
           name="description"
           content="Nextly is a free landing page template built with next.js & Tailwind CSS"
@@ -39,30 +39,26 @@ export default function Home() {
       <SectionTitle
         pretitle="Benefícios"
         title=" Por que nos escolher?">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        “Transforme sua ideia em realidade com a Guará Studio - a história da Carol" <br /> <br />
+        Carol sempre sonhou em empreender, mas não sabia muito bem como começar. Foi então que ela descobriu a Guará Studio, uma empresa de desenvolvimento de sites, aplicativos, sistemas e marketing. Com a ajuda da equipe Guará, Carol conseguiu transformar sua ideia em um negócio de sucesso, com um site na primeira página do Google. <br /> <br />
+        A Guará Studio não é apenas uma empresa de tecnologia - é uma parceira que ajuda a transformar sonhos em realidade. Se você tem uma ideia que precisa sair do papel, conte com a Guará Studio. Juntos, podemos criar uma história de sucesso como a da Carol. Entre em contato agora mesmo e comece a transformar seus sonhos em realidade! <br /> <br />
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Projetos"
-        title="Nossos últimos projetos">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don't forget to add one. Just like this.
+        title="Casos de sucesso">
+        Confira nossos últimos projetos e descubra como nossos designs modernos e eficientes podem impulsionar seu negócio. Desde websites responsivos até campanhas de marketing criativas, nossa equipe está pronta para trazer resultados expressivos para sua empresa. Veja agora nossos casos de sucesso!
       </SectionTitle>
       <LastProjects />
       <SectionTitle
         pretitle="Feedbacks"
-        title="Aqui está o que nossos clientes estão dizendo">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        title={`O que nossos clientes estão dizendo sobre nós`}>
+        A satisfação dos nossos clientes é nossa prioridade. Confira o que eles estão dizendo sobre nossos serviços e descubra por que somos uma escolha confiável para suas necessidades de negócios. Leia agora nossas avaliações e depoimentos de clientes felizes!
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Dúvidas frequentes">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      Reunimos as principais questões para ajudá-lo a entender melhor o que oferecemos. Confira agora mesmo!
       </SectionTitle>
       <Faq />
       <SectionTitle

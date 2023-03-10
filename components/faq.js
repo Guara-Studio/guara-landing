@@ -35,20 +35,35 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
+    question: "Quais são os principais benefícios de ter um site e aplicativo para meu negócio?",
     answer: "Yes, this template is completely free to use.",
   },
   {
-    question: "Can I use it in a commercial project?",
+    question: "Quanto tempo leva para desenvolver um site e aplicativo?",
     answer: "Yes, this you can.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Quais são os principais recursos necessários para desenvolver um site ou aplicativo?",
     answer:
       "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Como escolher a melhor plataforma para desenvolver meu projeto?",
+    answer:
+      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+  },
+  {
+    question: "Como garantir que meu site ou aplicativo seja seguro e protegido contra ameaças?",
+    answer:
+      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+  },
+  {
+    question: "Como obter suporte técnico para meu site ou aplicativo?",
+    answer:
+      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+  },
+  {
+    question: "Como garantir que meu site ou aplicativo seja acessível para usuários com necessidades especiais?",
     answer:
       "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
   },

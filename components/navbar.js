@@ -19,8 +19,7 @@ export default function Navbar() {
           {({ open }) => (
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
-                <Link href="/">
-                  <a className="flex items-center space-x-2 text-2xl font-medium text-orange-500 dark:text-gray-100">
+                <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-orange-500 dark:text-gray-100">
                     <span>
                       <img
                         src="/img/logo.svg"
@@ -31,7 +30,6 @@ export default function Navbar() {
                       />
                     </span>
                     <span>Guará Studio</span>
-                  </a>
                 </Link>
 
                 <Disclosure.Button
@@ -60,16 +58,12 @@ export default function Navbar() {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
-                      <Link key={index} href="/">
-                        <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700">
+                      <Link key={index} href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 dark:focus:bg-gray-800 focus:outline-none dark:focus:bg-trueGray-700">
                           {item}
-                        </a>
                       </Link>
                     ))}
-                    <Link href="/">
-                      <a className="w-full px-6 py-2 mt-3 text-center text-white bg-orange-600 rounded-md lg:ml-5">
+                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-orange-600 rounded-md lg:ml-5">
                         Contate-nos
-                      </a>
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -83,10 +77,8 @@ export default function Navbar() {
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
-                <Link href="/">
-                  <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 focus:outline-none dark:focus:bg-gray-800">
+                <Link href="/" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 focus:outline-none dark:focus:bg-gray-800">
                     {menu}
-                  </a>
                 </Link>
               </li>
             ))}
@@ -94,10 +86,8 @@ export default function Navbar() {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/">
-            <a className="px-6 py-2 text-white bg-orange-600 rounded-md md:ml-5">
+          <Link href="/" className="px-6 py-2 text-white bg-orange-600 rounded-md md:ml-5">
               Contate-nos
-            </a>
           </Link>
 
           <ThemeChanger />

@@ -19,8 +19,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link href="/">
-                <a className="flex items-center space-x-2 text-2xl font-bold text-orange-500 dark:text-gray-100">
+              <Link href="/" className="flex items-center space-x-2 text-2xl font-bold text-orange-500 dark:text-gray-100">
                   <span>
                     <img
                       src="/img/logo.svg"
@@ -31,7 +30,6 @@ export default function Footer() {
                     />
                   </span>
                   <span>Guará Studio</span>
-                </a>
               </Link>
             </div>
 
@@ -45,10 +43,8 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 focus:outline-none dark:focus:bg-trueGray-700">
+                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
-                  </a>
                 </Link>
               ))}
             </div>
@@ -56,10 +52,8 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
-                <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 focus:outline-none dark:focus:bg-trueGray-700">
+                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
-                  </a>
                 </Link>
               ))}
             </div>
@@ -67,34 +61,34 @@ export default function Footer() {
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a
+              <Link
                 href="https://twitter.com/web3templates"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Twitter</span>
                 <Twitter />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://facebook.com/web3templates"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://instagram.com/web3templates"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Instagram</span>
                 <Instagram />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://linkedin.com/"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
